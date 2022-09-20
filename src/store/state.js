@@ -1,3 +1,9 @@
 export default {
-    test: 'content'
+    test: 'content',
+    user : {
+        name : '',
+        id : ''
+    },
+    token : '',
+    isLogin : false
 }

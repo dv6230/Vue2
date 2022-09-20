@@ -9,8 +9,11 @@ export default new Vuex.Store({
   state,
   mutations,
   actions: {
-    updateTest(context, status) {
-      context.commit('TEST', status)     // mutation 中定義方法
+    LoginUser(context,status){
+      context.commit('LoginUser',status)
+    },
+    LogoutUser(context,status){
+      context.commit('LogoutUser',status)
     }
   },
   modules: {

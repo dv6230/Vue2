@@ -1,5 +1,13 @@
 export default {
-    TEST: function (state, data) {      //status -> payload （載荷）
-        state.test = data;
-    }
+    LoginUser : function (state ,data){
+        state.user = data
+        state.isLogin = true
+    },
+    LogoutUser : function (state ,data){
+        state.user = {
+            name : '',
+            id : ''
+        }
+        state.isLogin = false
+    },
 }

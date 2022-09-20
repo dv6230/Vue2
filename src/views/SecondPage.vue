@@ -1,6 +1,6 @@
 <template>
     <div>
-
+      <h3>Second page</h3>
     </div>
 </template>
 <script>

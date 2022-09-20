@@ -53,7 +53,6 @@ export default {
 }
 
 .content-panel {
-    padding: '24px';
     background: rgb(255, 255, 255);
     min-height: calc(100vh - 64px - 69px);
     padding: 30px;
